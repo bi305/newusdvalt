@@ -1,0 +1,23 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Red Hat Display";
+}
+::-webkit-scrollbar {
+	width: 5px;
+	height: 10px;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: lightblue;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #b30000;
+}
